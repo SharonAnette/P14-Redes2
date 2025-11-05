@@ -3,7 +3,7 @@
 ## Objetivo
 Realizar un servidor HTTP que busque ejecutar las operaciones de tipo GET y POST.
 
-## Cómo funciona
+## Funcionamiento
 La práctica consiste en implementar un servidor HTTP básico utilizando Node.js, que permite manejar solicitudes GET y POST desde clientes web.
 
 1. **Configuración del servidor:** Se crea un servidor con el módulo `http` de Node.js, escuchando en el puerto 3000.  
@@ -20,7 +20,7 @@ El servidor implementa un modelo cliente-servidor simple, utilizando el protocol
 ## Objetivo
 Desarrollar un servidor HTTP básico en lenguaje C para ilustrar el funcionamiento fundamental del protocolo HTTP, aceptando conexiones en el puerto 80, procesando solicitudes de clientes y respondiendo con una página HTML simple.
 
-## Cómo funciona
+## Funcionamiento
 El servidor se implementa utilizando **sockets TCP** para establecer una conexión confiable entre cliente y servidor.
 
 1. **Creación del socket:** Se configura un socket TCP (`AF_INET`, `SOCK_STREAM`) enlazado al puerto 80.  
